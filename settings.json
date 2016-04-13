@@ -1,0 +1,109 @@
+// Place your settings in this file to overwrite the default settings
+
+{
+
+	//-------- Editor configuration --------
+
+	// Controls the font family.
+	"editor.fontFamily": "",
+
+	// Controls the font size.
+	"editor.fontSize": 15,
+
+	// Controls the line height.
+	"editor.lineHeight": 16,
+
+	// Controls visibility of line numbers
+	"editor.lineNumbers": true,
+
+
+	// Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
+	"editor.tabSize": 4,
+
+
+	// Controls if selections have rounded corners
+	"editor.roundedSelection": true,
+
+	// Controls if the editor will scroll beyond the last line
+	"editor.scrollBeyondLastLine": false,
+
+	// Controls after how many characters the editor will wrap to the next line. Setting this to 0 turns on viewport width wrapping
+	"editor.wrappingColumn": 120,
+
+	// Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
+	"editor.wrappingIndent": "indent",
+
+	// A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events
+	"editor.mouseWheelScrollSensitivity": 9,
+
+	// Controls if quick suggestions should show up or not while typing
+	"editor.quickSuggestions": true,
+
+	// Controls the delay in ms after which quick suggestions will show up
+	"editor.quickSuggestionsDelay": 1,
+
+	// Controls if the editor should automatically close brackets after opening them
+	"editor.autoClosingBrackets": true,
+
+	// Controls if the editor should automatically format the line after typing
+	"editor.formatOnType": true,
+
+	// Controls if suggestions should automatically show up when typing trigger characters
+	"editor.suggestOnTriggerCharacters": true,
+
+	// Controls whether the editor should highlight similar matches to the selection
+	"editor.selectionHighlight": true,
+
+
+
+
+	//-------- Files configuration --------
+
+	// When enabled, will trim trailing whitespace when you save a file.
+	"files.trimTrailingWhitespace": true,
+
+
+
+	// Experimental support for fuzzy matching of file names in the file picker.
+	"filePicker.alternateFileNameMatching": false,
+
+
+
+
+	//-------- JavaScript configuration --------
+
+	// Controls how JavaScript IntelliSense works.
+
+	// Always include all words from the current document.
+	"javascript.suggest.alwaysAllWords": true,
+
+	// Complete functions with their parameter signature.
+	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
+
+
+	// Controls various aspects of validation.
+
+
+	// Empty block should have a comment.
+	"javascript.validate.lint.emptyBlocksWithoutComment": "warning",
+
+
+	// Missing semicolon.
+	"javascript.validate.lint.missingSemicolon": "warning",
+
+
+	// Unused local function.
+	"javascript.validate.lint.unusedFunctions": "warning",
+
+	// Parameters don't match a function signature
+	"javascript.validate.lint.parametersDontMatchSignature": "warning",
+
+
+	// Don't use an unknown property.
+	"javascript.validate.lint.unknownProperty": "warning",
+
+	// Don't require an unknown module.
+	"javascript.validate.lint.unknownModule": "warning"
+
+
+}
